@@ -1,0 +1,78 @@
+.main{
+    background-color:rgb(128, 128, 128);
+    height:200px;
+    margin: auto;
+    margin-bottom: 50px;
+    
+    padding:10px;
+}
+.main1{
+    background-color:rgb(128, 128, 128);
+    height:60px;
+    margin: auto;
+    display: block;
+    padding:10px;
+    
+}
+img{
+    border-radius:50%;
+    border:rgba(218,167,27,1) 5px solid;
+    width:200px;
+    height:200px;
+    border-style:dotted;
+
+}
+.namebox{
+    position:relative;
+  z-index: 2;
+  height: 100px;
+  width:100%;
+  border-radius: 25px;
+  padding: 10px 0 25px 0;
+    background-color: goldenrod;
+    margin-top: -30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  table ,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  b{
+   color: #999999
+  }
+  .space{
+    padding-left:10px;
+  }
+  .space1{
+    padding-left:10px;
+
+  }
+  #myinput {
+    background: linear-gradient(to right,#82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+    border-radius: 1px;
+    border:solid 1px goldenrod;
+    height: 7px;
+    width: 100px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    text-align: right;
+    clear: both;
+    float:Right;
+    margin-right:15px;
+}
+  
+  .fontfam{
+      font-size: 18pt;
+      font-family:'Courier New', Courier, monospace;
+      font-weight: 300;
+  }
